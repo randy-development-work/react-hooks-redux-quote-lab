@@ -18,6 +18,14 @@ function QuoteForm() {
       ...formData,
       [event.target.id]: event.target.value,
     });
+
+    // if state could've been one item:
+    //  const [content, setContent] = useState("")
+    // then handleContentChange function could've been:
+    //
+    // function handleContentChange(event) {
+    //   setContent(event.target.value);
+    // }
   }
 
   function handleSubmit(event) {
@@ -37,8 +45,6 @@ function QuoteForm() {
       content: "",
       author: "",
     });
-    
-    
   }
 
   return (
