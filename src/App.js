@@ -2,7 +2,9 @@ import React from "react";
 import QuoteForm from "./features/quotes/QuoteForm";
 import Quotes from "./features/quotes/Quotes";
 
+
 function App() {
+
   return (
     <div className="container-fluid">
       <div

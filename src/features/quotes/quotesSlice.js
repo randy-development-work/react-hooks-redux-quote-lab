@@ -56,8 +56,9 @@ export default function quotesReducer(state = initialState, action) {
           : quote
       );
     default:
-      return state;
+      break;
   }
+  return state;
 }
 
 // // Slice alternative
